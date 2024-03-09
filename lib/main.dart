@@ -38,7 +38,7 @@ class _JsDartState extends State<JsDart> {
                   counter = result as int;
                 });
               },
-              child: Text("Add"),
+              child: const Text("Add"),
             ),
             ElevatedButton(
               onPressed: () async {
